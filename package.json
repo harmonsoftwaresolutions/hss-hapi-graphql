@@ -32,7 +32,7 @@
         {
           "singleQuote": true,
           "parser": "flow",
-          "trailingComma": "es7",
+          "trailingComma": "all",
           "bracketSpacing": true
         }
       ],
