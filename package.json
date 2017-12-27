@@ -1,0 +1,62 @@
+{
+  "name": "hss-hapi-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/harmonsoftwaresolutions/hss-hapi-graphql.git",
+  "author": "Evan Harmon <evan.p.harmon@gmail.com>",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "import/no-unresolved": 0,
+      "import/extensions": 0,
+      "import/no-extraneous-dependencies": "off",
+      "no-console": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "parser": "flow",
+          "trailingComma": "es7",
+          "bracketSpacing": true
+        }
+      ],
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ]
+    },
+    "globals": {
+      "describe": true,
+      "test": true,
+      "expect": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  },
+  "scripts": {
+    "lint": "eslint ./lib",
+    "precommit": "lint-staged"
+  }
+}
