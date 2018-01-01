@@ -65,7 +65,8 @@
     "apollo-server-hapi": "^1.3.2",
     "graphql": "^0.12.3",
     "graphql-tools": "^2.14.1",
-    "hapi": "^17.2.0"
+    "hapi": "^17.2.0",
+    "winston": "^3.0.0-rc1"
   },
   "engines": {
     "yarn": "^1.3.2",
