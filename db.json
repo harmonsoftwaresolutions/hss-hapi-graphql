@@ -1,0 +1,38 @@
+{
+  "notes": [
+    {
+      "content": {
+        "entityMap": {},
+        "blocks": [
+          {
+            "key": "1ms91",
+            "text": "text 1",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+          }
+        ]
+      },
+      "id": 1
+    },
+    {
+      "content": {
+        "entityMap": {},
+        "blocks": [
+          {
+            "key": "5a2ct",
+            "text": "text 2",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+          }
+        ]
+      },
+      "id": 2
+    }
+  ]
+}
